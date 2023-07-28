@@ -1,2 +1,2 @@
 # youtube-clone
-YouTube Clone Project with material Ui
+YouTube Clone Project with Tailwind css

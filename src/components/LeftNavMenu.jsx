@@ -26,7 +26,7 @@ const LeftNavMenu = () => {
     >
       <div className="flex px-5 flex-col">
         {categories.map((item) => {
-          return <Fragment>
+          return <Fragment key={item.name}>
             <LeftNavMenuItem
               icon={item.icon}
               text={item.type == "home" ? "Home" : item.name}

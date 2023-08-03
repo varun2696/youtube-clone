@@ -7,7 +7,7 @@ import { BsFillCheckCircleFill } from "react-icons/bs";
 
 const VideoCard = ({ video }) => {
     return (
-        <Link to={`/video/${video?.videoId}`}>
+        <Link to={`/video/details/${video?.videoId}`}>
             <div className="flex flex-col mb-5">
                 <div className="relative h-48 md:h-40 md:rounded-xl overflow-hidden">
                     <img

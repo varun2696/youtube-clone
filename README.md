@@ -3,6 +3,8 @@
 This is a simple YouTube clone built with React.js and styled using Tailwind CSS. It allows users to browse and watch YouTube videos.
 
 ![Demo](https://vkr-yt-react-app.netlify.app/)
+![Screenshot (269)](https://github.com/varun2696/youtube-clone/assets/110106484/3a430bd8-8261-4564-ad78-f9856a3ece06)
+
 
 ## Table of Contents
 

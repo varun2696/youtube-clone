@@ -18,5 +18,4 @@ This is a simple YouTube clone built with React.js and styled using Tailwind CSS
 - **Responsive Design**: Works seamlessly on various screen sizes.
 - **Search Functionality**: Search for specific videos.
 - **Video Details**: View video title, description, and uploader information.
-- **Comments**: Read and add comments to videos.
 - **Like and Dislike**: Like or dislike videos.

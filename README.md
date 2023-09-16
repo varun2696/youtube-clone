@@ -6,7 +6,7 @@ This is a simple YouTube clone built with React.js and styled using Tailwind CSS
 
 ## Table of Contents
 
-- [Demo](#demo)
+- [Demo](https://vkr-yt-react-app.netlify.app/)
 - [Features](#features)
 
 

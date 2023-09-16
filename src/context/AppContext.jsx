@@ -17,11 +17,12 @@ const AppContextProvider = ({ children }) => {
 
     const fetchSelectCategory = (query) => {
         setLoading(true)
-        fetchApiData(`search/?q=${query}`).then((res) => {
-            // console.log(res.contents);
-            setSearchResults(res.contents)
-            setLoading(false)
-        })
+        fetchApiData(`search/?q=${query}`)
+            .then((res) => {
+                // console.log(res.contents);
+                setSearchResults(res.contents)
+                setLoading(false)
+            })
     }
     return (
         <AppContext.Provider value={{

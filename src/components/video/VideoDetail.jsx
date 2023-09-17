@@ -27,7 +27,7 @@ const VideoDetail = () => {
         setLoading(true);
         fetchApiData(`video/details/?id=${id}`)
             .then((res) => {
-                console.log("vd", res);
+                // console.log("vd", res);
                 setLoading(false);
                 setVideo(res)
             })
@@ -36,7 +36,7 @@ const VideoDetail = () => {
     const fetchRelatedVideos = () => {
         setLoading(true);
         fetchApiData(`video/related-contents/?id=${id}`).then((res) => {
-            console.log("related", res);
+            // console.log("related", res);
             setRelatedVideos(res);
             setLoading(false);
         });
@@ -66,6 +66,7 @@ const VideoDetail = () => {
                                     <img
                                         className="h-full w-full object-cover"
                                         src={video?.author?.avatar[0]?.url}
+                                        alt={video?.author?.avatar[0]?.url}
                                     />
                                 </div>
                             </div>

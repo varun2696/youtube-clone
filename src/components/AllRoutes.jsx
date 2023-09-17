@@ -7,9 +7,10 @@ import VideoDetail from './video/VideoDetail'
 const AllRoutes = () => {
   return (
     <Routes>
-      <Route path='/' element={<Home />} />
+      <Route path='/' exact element={<Home />} />
       <Route path='/searchResult/:query' element={<SearchResult />} />
-      <Route path='/video/details/:id' element={<VideoDetail/>} />
+      <Route path='/video/details/:id' element={<VideoDetail />} />
+      <Route path='*' element={<h1>Page Not Found</h1>} />
     </Routes>
   )
 }
